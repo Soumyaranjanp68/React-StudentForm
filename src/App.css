@@ -1,6 +1,6 @@
 .App {
   max-height: 100vh;
-  background-image: linear-gradient(45deg,#d2001a,#7462ff,#f48e21);
+  background-image: linear-gradient(45deg,#0b69a4,#8d7c5f,#063a22);
   background-size: 300% 300%;
   animation: color 5s ease-in-out infinite;
 }
