@@ -1,6 +1,7 @@
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import MyForm from "./MyForm"
 import Details from "./Details";
+import "./App.css";
 
 const router=createBrowserRouter([
   {

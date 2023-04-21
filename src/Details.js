@@ -1,10 +1,12 @@
 import { useLocation } from "react-router-dom";
+import "./Details.css";
+
 
 export default function Details() {
     const location = useLocation();
     return (
         <div>
-            {(location.state) ? (
+            {(location.state) ? (             
                 <div className='box'>
                     <table>
                         <tr>
@@ -24,8 +26,9 @@ export default function Details() {
                             <td>{location.state.address}</td>
                         </tr>
                     </table>
-                </div>
+                    </div>
             ) : <div>{"No Data Found"}</div>}
         </div>
     )
+
 }

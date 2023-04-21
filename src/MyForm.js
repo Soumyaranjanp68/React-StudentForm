@@ -1,6 +1,6 @@
 import React , {useState}from 'react';
 import { useNavigate } from 'react-router-dom';
-import './App.css';
+import './Myform.css';
 
 
 function MyForm() {
@@ -24,7 +24,7 @@ function MyForm() {
   
   
     return (
-      <div className="app">
+      <div className="App">
         <h1>Student form List</h1>
         <div className="form-container">
           <form  onSubmit={(e)=>submit(e)} className="form-group">
